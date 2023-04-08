@@ -1,0 +1,36 @@
+commit b78a1c0e9a37f32407bcc05c2aaef032d1922e76 (HEAD -> master, origin/master, bug3)
+Author: Hristijana Sindilieva <hristijanas@gmail.com>
+Date:   Sat Apr 8 19:58:09 2023 +0200
+
+    Fix method sumEvenNumbers
+
+commit d3cfffb758d12561ae66167467b6a4483776e112
+Merge: 34a784b b9b0e72
+Author: Hristijana Sindilieva <hristijanas@gmail.com>
+Date:   Sat Apr 8 19:58:58 2023 +0200
+
+    Merge branch 'bug2'
+
+commit b9b0e7272ac765b0f97bc726e24d4dc1f5d63f62 (origin/bug2, bug2)
+Author: Hristijana Sindilieva <hristijanas@gmail.com>
+Date:   Sat Apr 8 19:57:06 2023 +0200
+
+    Fix wrong condition in filterOddNumbers
+
+commit 34a784b959aaf262bfa3d4bf2400c1d512123ced (origin/bug1, bug1)
+Author: Hristijana Sindilieva <hristijanas@gmail.com>
+Date:   Sat Apr 8 19:52:40 2023 +0200
+
+    Fix wrong loop for reading
+
+commit 2f9859c9d9fc49702f99183a2f63f61d5b8080f2
+Author: Hristijana Sindilieva <hristijanas@gmail.com>
+Date:   Sat Apr 8 19:50:48 2023 +0200
+
+    Add java class
+
+commit 2bde769fc95e5a85f1634cc4a954e0de551d0986
+Author: Hristijana Sindilieva <hristijanas@gmail.com>
+Date:   Sat Apr 8 19:49:38 2023 +0200
+
+    Initial commit

@@ -1,0 +1,41 @@
+git remote add origin git@github.com:hristijana/SI_2023_lab1_151150.git
+echo "Hristijana, Sindilieva, 151150" >> README.md
+git add .
+git commit -m "Initial commit"
+git push -u origin master
+touch SILab1.java
+code .
+git add .
+git commit -m "Add java class"
+git push origin master
+git checkout -b bug1
+git status
+git add .
+git commit -m "Fix wrong loop for reading"
+git push origin bug1
+git checkout master
+git checkout -b bug2
+git status
+git add .
+git commit -m "Fix wrong condition in filterOddNumbers"
+git push origin bug2
+git checkout master
+git checkout -b bug3
+git status
+git add .
+git commit -m "Fix method sumEvenNumbers"
+git push origin bug3
+git checkout master
+git fetch
+git merge bug1  // Ne se pojavija problemi pri spojuvanje
+git status
+git push origin master
+git merge bug2  // Ne se pojavija problemi pri spojuvanje
+git push origin master
+git checkout bug3
+git rebase master
+git checkout master
+git merge bug3  // Ne se pojavija problemi pri spojuvanje
+git push origin master
+touch logs.txt
+touch 151150.txt
